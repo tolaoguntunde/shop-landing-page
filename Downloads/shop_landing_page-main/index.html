@@ -31,26 +31,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
     integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="index.css">
+
 
   <!-- swiper css link -->
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <!-- connected stylesheet -->
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-  <!-- navbar -->
+  <!-- main navbar -->
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./assets/images/logo/pearl.png" alt=""
-            class="d-inline-block align-text-top">
-        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <a class="navbar-brand" href="#"><img src="./assets/images/logo/pearl.png" alt=""
+              class="d-inline-block align-text-top">
+          </a>
           <ul class="navbar-nav">
             <li class="nav-item px-3">
               <a class="nav-link active" aria-current="page" href="#">HOME</a>
@@ -90,53 +93,159 @@
             <li class="nav-item">
               <a class="nav-link" href="#"><i class="fas fa-shopping-bag"></i></a>
             </li>
-
           </ul>
-
         </div>
     </nav>
 
   </div>
-  <!-- <div class="carousel-caption d-none d-md-block">
-          <h5>-20% Off </h5>
-          <h2>Pearlish Shop Co.</h2>
-          <button> SHOP NOW</button>
-        </div> -->
 
-  <!-- Swiper -->
-  <!-- <div class="container "> -->
-  <div class="header bg-light p-4">
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="./assets/images/slider-image/banner1.jpeg" alt="">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="fw-bold">-20% Off </h5>
-            <h3 class="text-display">Pearlish </h3>
-            <h3 class="text-display">Shop Co.</h3>
-            <p></p><button> SHOP NOW</button>
-          </div>
+  <main>
+    <!-- Banner HTML -->
+    <header class="banner bg-light p-4">
+      <div class="banner1"><img src="./assets/images/slider-image/banner1.jpeg" alt="" class="img-fluid">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fw-bold">-20% Off </h5>
+          <h2 class="text-display ">Pearlish </h2>
+          <h2 class="text-display">Shop Co.</h2>
+          <button> SHOP NOW</button>
         </div>
-        <div class="swiper-slide"><img src="./assets/images/banner/banner3.jpeg" alt="">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Best Seller</h5>
-            <h3 class=" text-display">Daily Dream </h3>
-            <h3 class=" text-display">& Catcher</h3>
-            <button> SHOP NOW</button>
-          </div>
+      </div>
+      <div class="banner2"><img src="./assets/images/banner/banner3.jpeg" alt="" class="img-fluid">
+        <div class="carousel-caption d-none d-md-block">
+          <h6>Best Seller</h6>
+          <h5 class="text-display">Daily Dream </h5>
+          <h5 class="text-display">& Catcher</h5>
+          <button class="btn"> SHOP NOW</button>
         </div>
-        <div class="swiper-slide"> <img src="./assets/images/banner/8.jpg" alt="">
+        <div class="banner3"><img src="./assets/images/banner/8.jpg" alt="" class="img-fluid">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Best Seller </h5>
-            <h3 class="text-display ">Flower Vase</h3>
-            <h3 class=" text-display ">& Pot</h3>
-            <button> SHOP NOW</button>
+            <h6>Best Seller </h6>
+            <h5 class="text-display">Flower Vase</h5>
+            <h5 class="text-display">& Pot</h5>
+            <button class="btn"> SHOP NOW</button>
           </div>
         </div>
       </div>
-      <div class="swiper-pagination"></div>
+    </header>
+
+    <!-- section one html -->
+    <section class="first-section">
+      <img src="./assets/images/icons/shipping.png" alt="">
+      <div class="slider one">
+        <h6>Free Shipping</h6>
+        <h6 class="fw-light">Capped at $39 per order</h6>
+      </div>
+      <div class="mid"></div>
+      <img src="./assets/images/icons/ccard.png" alt="">
+      <div class="slider two">
+        <h6>Card Payments</h6>
+        <h6 class="fw-light">12 Months Installments</h6>
+      </div>
+      <div class="mid"></div>
+      <img src="./assets/images/icons/return.png" alt="">
+      <div class="slider three">
+        <h6>Easy Return</h6>
+        <h6 class="fw-light">Show with confidence</h6>
+      </div>
+    </section>
+
+    <section>
+      <div class="container second-section">
+        <h2>Best Products</h2>
+        <h6 class="fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quibusdam ipsum consequatur
+          esse similique corrupti.</h6>
+      </div>
+    </section>
+
+<!-- second nav bar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item px-3">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link active-nav" href="#">Wooden</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Pottery</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Paintings</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link">Jewelry</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-  </div>
-  <!-- </div> -->
+
+
+    <!-- third section -->
+    <div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-4 third-section">
+      <div class="col">
+        <div class="card">
+          <img src="./assets/images/product-image/zoom-image/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+           ⭐️⭐️⭐️⭐️⭐️
+            <p class="card-text">Hand-Made Garlic Mortar </p>
+            <h5 class="card-title">$38.50</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./assets/images/product-image/zoom-image/4.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            ⭐️⭐️⭐️⭐️⭐️
+            <p class="card-text">Hand-Made Ceramic Pottery</p>
+            <h5 class="card-title">$45.50</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./assets/images/product-image/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            ⭐️⭐️⭐️⭐️⭐️
+            <p class="card-text">Hand Painted Bowls</p>
+            <h5 class="card-title">$38.50</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./assets/images/product-image/4.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            ⭐️⭐️⭐️⭐️⭐️
+            <p class="card-text">Antique Wooden Farm Large</p>
+            <h5 class="card-title">$38.50</h5>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+  </main>
 
   <!-- Bootstrap JS setup -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
